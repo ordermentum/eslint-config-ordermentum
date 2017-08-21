@@ -1,0 +1,13 @@
+# Add temporary files of editors and your own system to your global .gitignore.
+.sass-cache
+/node_modules/
+/ordermentum-local*/
+/coverage
+/.nyc_output/
+.vscode
+.DS_Store
+npm-debug.*
+public.key
+ordermentum.env
+yarn-error.log
+/scripts/output/
