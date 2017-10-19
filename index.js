@@ -48,7 +48,12 @@ module.exports = {
     'react/self-closing-comp': 'warn',
     'react/sort-comp': 0,
     'react/style-prop-object': 'warn',
-    'space-before-function-paren': 'warn',
+    'space-before-function-paren': 'off',
+    'no-await-in-loop': 'warn',
+    'prefer-destructuring': 'warn',
+    'prefer-promise-reject-errors': 'warn',
+    'no-buffer-constructor': 'warn',
+    'no-restricted-globals': 'warn',
 
     'import/no-extraneous-dependencies': [
       'error',
