@@ -57,7 +57,7 @@ module.exports = {
 
     'import/no-extraneous-dependencies': [
       'error',
-      { devDependencies: ['**/*.test.js', '**/*_test.js', '**/*.spec.js'] },
+      { devDependencies: ['**/*.test.js', '**/*_test.js', '**/*.spec.js', '**/*.story.js'] },
     ],
     'prettier/prettier': ['error', { singleQuote: true, trailingComma: 'es5' }],
   },
