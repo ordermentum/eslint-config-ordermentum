@@ -11,7 +11,7 @@ module.exports = {
     'dot-location': 'warn',
     'func-names': 'off',
     'import/extensions': 'warn',
-    'import/first': 'error',
+    'import/first': 'warn',
     'import/newline-after-import': 'warn',
     'import/no-named-as-default': 'off',
     'import/no-named-as-default-member': 'warn',
