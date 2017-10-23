@@ -1,2 +1,3 @@
-# eslint
-Doing it Ordermentum Style.
+# Ordermentum ESLint Config
+
+Codin' it Ordermentum Style.
