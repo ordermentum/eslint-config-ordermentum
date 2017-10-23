@@ -35,6 +35,7 @@ module.exports = {
     'no-useless-escape': 'warn',
     'no-useless-return': 'warn',
     'object-property-newline': 'warn',
+    'react/default-props-match-prop-types': 'warn',
     'react/forbid-prop-type': 'off',
     'react/forbid-prop-types': 'warn',
     'react/jsx-filename-extension': 'off',
