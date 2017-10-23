@@ -8,7 +8,6 @@ module.exports = {
   rules: {
     /* disabling airbnb rules */
     'class-methods-use-this': 'off',
-    'dot-location': 'warn',
     'func-names': 'off',
     'import/extensions': 'warn',
     'import/first': 'warn',
@@ -25,7 +24,6 @@ module.exports = {
     'jsx-a11y/anchor-is-valid': 'warn',
     'no-bitwise': 'warn',
     'no-fallthrough': 'warn',
-    'no-mixed-operators': 'warn',
     'no-multi-assign': 'warn',
     'no-plusplus': 'warn',
     'no-restricted-syntax': 'off',
@@ -34,14 +32,11 @@ module.exports = {
     'no-undef': 'warn',
     'no-useless-escape': 'warn',
     'no-useless-return': 'warn',
-    'object-property-newline': 'warn',
     'react/default-props-match-prop-types': 'warn',
     'react/forbid-prop-type': 'off',
     'react/forbid-prop-types': 'warn',
     'react/jsx-filename-extension': 'off',
-    'react/jsx-indent': 'warn',
     'react/jsx-no-duplicate-props': 'warn',
-    'react/jsx-wrap-multilines': 'warn',
     'react/no-array-index-key': 'warn',
     'react/no-children-prop': 'warn',
     'react/no-string-refs': 'warn',
@@ -71,6 +66,7 @@ module.exports = {
         ],
       },
     ],
+
     'prettier/prettier': ['error', { singleQuote: true, trailingComma: 'es5' }],
   },
 };
