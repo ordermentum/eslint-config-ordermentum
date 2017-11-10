@@ -29,7 +29,7 @@ module.exports = {
     'no-restricted-syntax': 'off',
     'no-return-await': 'warn',
     'no-template-curly-in-string': 'warn',
-    'no-undef': 'warn',
+    'no-undef': 'error',
     'no-useless-escape': 'warn',
     'no-useless-return': 'warn',
     'react/default-props-match-prop-types': 'warn',
