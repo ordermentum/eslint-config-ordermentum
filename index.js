@@ -58,11 +58,11 @@ module.exports = {
       'error',
       {
         devDependencies: [
-          'test/**/*.js',
-          '**/*.test.js',
-          '**/*_test.js',
-          '**/*.spec.js',
-          '**/*.story.js',
+          'test/**/*.{js,jsx}',
+          '**/*.test.{js,jsx}',
+          '**/*_test.{js,jsx}',
+          '**/*.spec.{js,jsx}',
+          '**/*.story.{js,jsx}',
         ],
       },
     ],
