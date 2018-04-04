@@ -59,10 +59,10 @@ module.exports = {
       {
         devDependencies: [
           'test/**/*.{js,jsx}',
-          '**/*.test.{js,jsx}',
-          '**/*_test.{js,jsx}',
-          '**/*.spec.{js,jsx}',
-          '**/*.story.{js,jsx}',
+          '**/**/*.test.{js,jsx}',
+          '**/**/*_test.{js,jsx}',
+          '**/**/*.spec.{js,jsx}',
+          '**/**/*.story.{js,jsx}',
         ],
       },
     ],
