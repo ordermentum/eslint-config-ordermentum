@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ordermentum",
-  "version": "1.0.0-beta-12",
+  "version": "1.0.0-beta-13",
   "main": "index.js",
   "repository": "git@github.com:ordermentum/eslint-config-ordermentum.git",
   "author": "John D'Agostino <john@ordermentum.com>",
@@ -12,6 +12,7 @@
     "eslint": "^7.17.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-emotion": "^10.0.27",
     "eslint-plugin-flowtype": "^5.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
@@ -28,6 +29,7 @@
     "eslint": "^7.17.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-emotion": "^10.0.27",
     "eslint-plugin-flowtype": "^5.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
