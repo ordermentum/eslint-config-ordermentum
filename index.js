@@ -11,10 +11,18 @@ module.exports = {
   plugins: [
     "prettier",
     "@typescript-eslint",
-    "unicorn",
-    "react",
-    "mocha"
+    "unicorn"
   ],
+  settings: {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
   rules: {
     "import/no-cycle": "off",
     "import/no-useless-path-segments": "warn",
@@ -35,7 +43,7 @@ module.exports = {
     "no-useless-return": "warn",
     "space-before-function-paren": "off",
     "no-await-in-loop": "off",
-    "prefer-destructuring": "warn",
+    "prefer-destructuring": "error",
     "prefer-promise-reject-errors": "warn",
     "no-buffer-constructor": "warn",
     "no-restricted-globals": "warn",
@@ -54,11 +62,11 @@ module.exports = {
       "error",
       {
         "devDependencies": [
-          "test/**/*.{js,jsx}",
-          "**/**/*.test.{js,jsx}",
-          "**/**/*_test.{js,jsx}",
-          "**/**/*.spec.{js,jsx}",
-          "**/**/*.story.{js,jsx}"
+          "test/**/*.{js,jsx,ts,tsx}",
+          "**/**/*.test.{js,jsx,ts,tsx}",
+          "**/**/*_test.{js,jsx,ts,tsx}",
+          "**/**/*.spec.{js,jsx,ts,tsx}",
+          "**/**/*.story.{js,jsx,ts,tsx}"
         ]
       }
     ],
@@ -66,58 +74,35 @@ module.exports = {
       "error",
       {
         "singleQuote": true,
-        "trailingComma": "es5"
+        "trailingComma": "es5",
+        "arrowParens": "avoid",
       }
     ],
     "unicorn/no-abusive-eslint-disable": "error",
-    "mocha/no-exclusive-tests": "error",
-    "jsx-a11y/label-has-for": "warn",
-    "jsx-a11y/no-autofocus": "warn",
-    "jsx-a11y/no-noninteractive-element-interactions": "off",
-    "jsx-a11y/no-static-element-interactions": "warn",
-    "jsx-a11y/tabindex-no-positive": "warn",
-    "jsx-a11y/click-events-have-key-events": "warn",
-    "jsx-a11y/anchor-is-valid": "warn",
-    "react/default-props-match-prop-types": "warn",
-    "react/forbid-prop-type": "off",
-    "react/forbid-prop-types": "warn",
-    "react/jsx-filename-extension": "off",
-    "react/jsx-no-duplicate-props": "warn",
-    "react/no-array-index-key": "warn",
-    "react/no-children-prop": "warn",
-    "react/no-string-refs": "warn",
-    "react/no-unescaped-entities": "warn",
-    "react/no-unused-prop-types": "warn",
-    "react/no-unused-state": "warn",
-    "react/require-default-props": "warn",
-    "react/self-closing-comp": "warn",
-    "react/sort-comp": 0,
-    "react/style-prop-object": "warn",
-    "settings": {
-      "import/parsers": {
-        "@typescript-eslint/parser": [".ts", ".tsx"]
-      },
-      "import/resolver": {
-        "typescript": {}
-      }
-    },
-    "overrides": [
-      {
-        "parser": "@typescript-eslint/parser",
-        "parserOptions": {
-          "sourceType": "module"
-        },
-        "files": [
-          "**/*.ts",
-          "**/*.tsx"
-        ],
-        "rules": {
-          "no-undef": "warn",
-          "no-unused-vars": "off",
-          "import/no-unresolved": "error",
-          "import/named": "off"
-        }
-      }
-    ]
+    "prefer-object-spread": "warn",
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': ['error'],
+    "no-redeclare": "off",
+    '@typescript-eslint/no-redeclare': ['error'],
+    "max-classes-per-file": ["error", 3],
+    "no-useless-catch": "warn"
   },
+  "overrides": [
+    {
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "sourceType": "module"
+      },
+      "files": [
+        "**/*.ts",
+        "**/*.tsx"
+      ],
+      "rules": {
+        "no-undef": "warn",
+        "no-unused-vars": "off",
+        "import/no-unresolved": "error",
+        "import/named": "off"
+      }
+    }
+  ]
 };
