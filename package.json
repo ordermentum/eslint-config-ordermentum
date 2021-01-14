@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-ordermentum",
-  "version": "1.0.0-beta-8",
+  "version": "1.0.0-beta-9",
   "main": "index.js",
   "repository": "git@github.com:ordermentum/eslint-config-ordermentum.git",
   "author": "John D'Agostino <john@ordermentum.com>",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "@typescript-eslint/parser": "^2.34.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.17.0",
