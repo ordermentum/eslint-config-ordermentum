@@ -84,8 +84,10 @@ module.exports = {
     '@typescript-eslint/no-shadow': ['error'],
     "no-redeclare": "off",
     '@typescript-eslint/no-redeclare': ['error'],
-    "max-classes-per-file": ["error", 3],
-    "no-useless-catch": "warn"
+    "max-classes-per-file": ["error", 5],
+    "no-useless-catch": "warn",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": "error"
   },
   "overrides": [
     {

@@ -4,7 +4,7 @@ module.exports = {
         browser: true,
         jest: true,
     },
-    extends: ["./index.js"],
+    extends: ["./index.js", "plugin:react/recommended"],
     rules: {
         "jsx-a11y/label-has-for": "warn",
         "jsx-a11y/no-autofocus": "warn",
@@ -33,6 +33,8 @@ module.exports = {
         "react/self-closing-comp": "warn",
         "react/sort-comp": 0,
         "react/style-prop-object": "warn",
+        "react/display-name": "warn",
+        "react/prop-types": "warn",
         "import/no-extraneous-dependencies": [
             "error",
             {
@@ -50,18 +52,23 @@ module.exports = {
 
         // from ts-conversion
         "import/no-duplicates": "warn",
-
         "jsx-a11y/label-has-for": "off",
+        "unicorn/no-abusive-eslint-disable": "off",
+        "camelcase": ["error", {
+            "allow": ["^UNSAFE_"],
+            "properties": "never"
+        }]
     },
     // allows us to resolve the path to these files
     settings: {
         "import/resolver": {
             node: {
                 extensions: [".js", ".jsx", ".ts", ".tsx"],
-            },
+            }
         },
         // allows us to not use file extensions for these
         "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "react": { "version": "detect" }
     },
     overrides: [
         {
