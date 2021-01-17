@@ -87,7 +87,8 @@ module.exports = {
     "max-classes-per-file": ["error", 5],
     "no-useless-catch": "warn",
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": "error"
+    "@typescript-eslint/no-use-before-define": "error",
+    "unicorn/no-abusive-eslint-disable": "off"
   },
   "overrides": [
     {

@@ -53,7 +53,6 @@ module.exports = {
         // from ts-conversion
         "import/no-duplicates": "warn",
         "jsx-a11y/label-has-for": "off",
-        "unicorn/no-abusive-eslint-disable": "off",
         "camelcase": ["error", {
             "allow": ["^UNSAFE_"],
             "properties": "never"
