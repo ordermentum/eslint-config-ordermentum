@@ -88,7 +88,8 @@ module.exports = {
     "no-useless-catch": "warn",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": "error",
-    "unicorn/no-abusive-eslint-disable": "off"
+    "unicorn/no-abusive-eslint-disable": "off",
+    "no-continue": "off"
   },
   "overrides": [
     {
