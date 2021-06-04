@@ -29,7 +29,7 @@ module.exports = {
         "react/no-unescaped-entities": "warn",
         "react/no-unused-prop-types": "warn",
         "react/no-unused-state": "warn",
-        "react/require-default-props": "warn",
+        "react/require-default-props": ["warn", { "ignoreFunctionalComponents": true }],
         "react/self-closing-comp": "warn",
         "react/sort-comp": 0,
         "react/style-prop-object": "warn",
