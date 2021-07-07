@@ -35,20 +35,7 @@ module.exports = {
         "react/style-prop-object": "warn",
         "react/display-name": "warn",
         "react/prop-types": "warn",
-        "import/no-extraneous-dependencies": [
-            "error",
-            {
-                devDependencies: [
-                    "packages/**/test/**/*_test.{js,jsx,ts,tsx}",
-                    "test/**/*.{js,jsx,ts,tsx}",
-                    "**/**/*.test.{js,jsx,ts,tsx}",
-                    "**/**/*_test.{js,jsx,ts,tsx}",
-                    "**/**/*.spec.{js,jsx,ts,tsx}",
-                    "**/**/*.story.{js,jsx,ts,tsx}",
-                    ".storybook/**",
-                ],
-            },
-        ],
+        "import/no-extraneous-dependencies": "error",
 
         // from ts-conversion
         "import/no-duplicates": "warn",
@@ -91,15 +78,17 @@ module.exports = {
         {
             // doesn"t bug us about chai assersions such as
             // expect(Foo).to.be.true;
-            files: ["*_test.*"],
+            files: ["*_test.*", "test/**/*.*", "*.test.*", "*.spec.*"],
             rules: {
                 "no-unused-expressions": "off",
+                "import/no-extraneous-dependencies": "off",
             },
         },
         {
             files: ["*.story.*"],
             rules: {
                 "no-unused-vars": "off",
+                "import/no-extraneous-dependencies": "off"
             },
         },
     ],
