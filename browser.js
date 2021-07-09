@@ -1,5 +1,5 @@
 module.exports = {
-    plugins: ["emotion", "react", "jsx-a11y"],
+    plugins: ["@emotion", "react", "jsx-a11y"],
     env: {
         browser: true,
         jest: true,
@@ -14,10 +14,10 @@ module.exports = {
         "jsx-a11y/click-events-have-key-events": "warn",
         "jsx-a11y/anchor-is-valid": "warn",
         "import/prefer-default-export": "off",
-        "emotion/jsx-import": "error",
-        "emotion/no-vanilla": "error",
-        "emotion/import-from-emotion": "error",
-        "emotion/styled-import": "error",
+        "@emotion/jsx-import": "error",
+        "@emotion/no-vanilla": "error",
+        "@emotion/import-from-emotion": "error",
+        "@emotion/styled-import": "error",
         "react/default-props-match-prop-types": "warn",
         "react/forbid-prop-type": "off",
         "react/forbid-prop-types": "warn",
