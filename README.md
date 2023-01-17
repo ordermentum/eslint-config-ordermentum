@@ -2,7 +2,15 @@
 
 Codin' it Ordermentum Style.
 
-## Peer Dependencies
+## Usage
+
+### 1. Install the package
+
+```
+yarn add --dev @ordermentum/eslint-config-ordermentum"
+```
+
+### 2. Install peer dependencies
 
 Install peer dependencies by running:
 ```sh
@@ -22,7 +30,12 @@ yarn add --dev \
     eslint-plugin-react-hooks@^4             \
     eslint-plugin-react@7.32.1               \
     eslint-plugin-unicorn@45.0.2             \
-    eslint@^8.32.0                           \
+    prettier@^2.8.3                          \
 
 ```
 
+### 3. Add to ESLint configuration
+Add the following line to your `.eslintrc` file:
+```json
+"extends": ["@ordermentum/ordermentum"],
+```
