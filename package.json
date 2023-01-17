@@ -1,6 +1,6 @@
 {
   "name": "@ordermentum/eslint-config-ordermentum",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "main": "index.js",
   "repository": "git@github.com:ordermentum/eslint-config-ordermentum.git",
   "author": "John D'Agostino <john@ordermentum.com>",
@@ -10,7 +10,7 @@
     "@typescript-eslint/eslint-plugin": "4.33.0",
     "@typescript-eslint/parser": "4.33.0",
     "babel-eslint": "10.1.0",
-    "eslint": "7.32.0",
+    "eslint": "8.32.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-import": "2.26.0",
