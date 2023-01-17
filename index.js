@@ -1,11 +1,11 @@
 module.exports = {
-  parser: "babel-eslint",
+  parser: "@babel/eslint-parser",
   env: {
     node: true
   },
   extends: [
-    "eslint-config-airbnb-base",
-    "eslint-config-airbnb-base/rules/strict",
+    "airbnb-base",
+    "airbnb-base/rules/strict",
     "prettier"
   ],
   plugins: [
