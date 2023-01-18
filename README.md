@@ -7,7 +7,7 @@ Codin' it Ordermentum Style.
 ### 1. Install the package
 
 ```sh
-yarn add --dev @ordermentum/eslint-config-ordermentum"
+yarn add --dev @ordermentum/eslint-config-ordermentum
 ```
 
 ### 2. Install peer dependencies
