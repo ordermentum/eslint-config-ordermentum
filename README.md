@@ -15,8 +15,6 @@ yarn add --dev @ordermentum/eslint-config-ordermentum
 Install peer dependencies by running:
 ```sh
 yarn add --dev \
-    @babel/core@^7.20.12                     \
-    @babel/eslint-parser@^7.19.1             \
     @emotion/eslint-plugin@11.10             \
     @typescript-eslint/eslint-plugin@^5.48.2 \
     @typescript-eslint/parser@^5.48.2        \
