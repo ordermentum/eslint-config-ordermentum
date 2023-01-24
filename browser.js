@@ -1,5 +1,5 @@
 module.exports = {
-    plugins: ["@babel/eslint-parser", "@emotion", "react", "jsx-a11y"],
+    plugins: ["@emotion", "react", "jsx-a11y"],
     env: {
         browser: true,
         jest: true,
