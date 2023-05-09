@@ -2,8 +2,13 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: ['airbnb-base', 'airbnb-base/rules/strict', 'prettier'],
-  plugins: ['prettier', '@typescript-eslint', 'unicorn'],
+  extends: [
+    'airbnb-base',
+    'airbnb-base/rules/strict',
+    'prettier',
+    'plugin:promise/recommended',
+  ],
+  plugins: ['prettier', '@typescript-eslint', 'unicorn', 'promise'],
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],

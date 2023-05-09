@@ -1,10 +1,14 @@
 module.exports = {
-  plugins: ['@emotion', 'react', 'jsx-a11y'],
+  plugins: ['@emotion', 'react', 'jsx-a11y', 'promise'],
   env: {
     browser: true,
     jest: true,
   },
-  extends: ['./index.js', 'plugin:react/recommended'],
+  extends: [
+    './index.js',
+    'plugin:react/recommended',
+    'plugin:promise/recommended',
+  ],
   rules: {
     'jsx-a11y/label-has-for': 'warn',
     'jsx-a11y/no-autofocus': 'warn',
