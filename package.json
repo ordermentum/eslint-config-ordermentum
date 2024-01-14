@@ -5,6 +5,9 @@
   "repository": "git@github.com:ordermentum/eslint-config-ordermentum.git",
   "author": "John D'Agostino <john@ordermentum.com>",
   "license": "MIT",
+  "scripts": {
+    "release": "changeset publish"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@emotion/eslint-plugin": "^11.10",
