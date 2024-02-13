@@ -82,6 +82,8 @@ module.exports = {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
     'no-redeclare': 'off',
+    "unicorn/no-array-reduce": "error",
+    "unicorn/no-array-for-each": "error",
     '@typescript-eslint/no-redeclare': ['error'],
     'max-classes-per-file': ['error', 5],
     'no-useless-catch': 'warn',

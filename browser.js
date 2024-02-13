@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['@emotion', 'react', 'jsx-a11y', 'promise'],
+  plugins: ['@emotion', 'react', 'jsx-a11y', 'promise', 'unicorn'],
   env: {
     browser: true,
     jest: true,
@@ -44,6 +44,8 @@ module.exports = {
     'react/prop-types': 'warn',
     'import/no-extraneous-dependencies': 'error',
 
+    "unicorn/no-array-reduce": "error",
+    "unicorn/no-array-for-each": "error",
     // from ts-conversion
     'import/no-duplicates': 'warn',
     'jsx-a11y/label-has-for': 'off',
