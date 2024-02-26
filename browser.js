@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['@emotion', 'react', 'jsx-a11y', 'promise', 'unicorn'],
+  plugins: ['@emotion', 'react', 'jsx-a11y', 'promise', 'unicorn', "react-hooks"],
   env: {
     browser: true,
     jest: true,
@@ -43,6 +43,8 @@ module.exports = {
     'react/display-name': 'warn',
     'react/prop-types': 'warn',
     'import/no-extraneous-dependencies': 'error',
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
 
     "unicorn/no-array-reduce": "error",
     "unicorn/no-array-for-each": "error",
