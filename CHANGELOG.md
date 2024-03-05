@@ -1,5 +1,11 @@
 # @ordermentum/eslint-config-ordermentum
 
+## 2.3.1
+
+### Patch Changes
+
+- 253395d: Updated changeset command to version before publishing
+
 ## 2.3.0
 
 ### Minor Changes
