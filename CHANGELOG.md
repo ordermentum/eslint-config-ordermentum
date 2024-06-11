@@ -1,5 +1,11 @@
 # @ordermentum/eslint-config-ordermentum
 
+## 2.3.2
+
+### Patch Changes
+
+- feb04f6: Correct rule name declaration '@typescript-eslint/no-unnecessary-condition'
+
 ## 2.3.1
 
 ### Patch Changes
