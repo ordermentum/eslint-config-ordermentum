@@ -36,7 +36,7 @@ module.exports = {
     'no-template-curly-in-string': 'warn',
     'no-undef': 'error',
     'no-useless-escape': 'warn',
-    'typescript-eslint/no-unnecessary-condition': 'warn',
+    '@typescript-eslint/no-unnecessary-condition': 'warn',
     'no-useless-return': 'warn',
     'space-before-function-paren': 'off',
     'no-await-in-loop': 'off',
