@@ -1,5 +1,11 @@
 # @ordermentum/eslint-config-ordermentum
 
+## 2.3.3
+
+### Patch Changes
+
+- 5b8a2fa: Apply @typescript-eslint rules only in ts files
+
 ## 2.3.2
 
 ### Patch Changes
