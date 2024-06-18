@@ -1,5 +1,12 @@
 module.exports = {
-  plugins: ['@emotion', 'react', 'jsx-a11y', 'promise', 'unicorn', "react-hooks"],
+  plugins: [
+    '@emotion',
+    'react',
+    'jsx-a11y',
+    'promise',
+    'unicorn',
+    'react-hooks',
+  ],
   env: {
     browser: true,
     jest: true,
@@ -10,7 +17,6 @@ module.exports = {
     'plugin:promise/recommended',
   ],
   rules: {
-    'jsx-a11y/label-has-for': 'warn',
     'jsx-a11y/no-autofocus': 'warn',
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'jsx-a11y/no-static-element-interactions': 'warn',
@@ -43,11 +49,11 @@ module.exports = {
     'react/display-name': 'warn',
     'react/prop-types': 'warn',
     'import/no-extraneous-dependencies': 'error',
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
 
-    "unicorn/no-array-reduce": "error",
-    "unicorn/no-array-for-each": "error",
+    'unicorn/no-array-reduce': 'error',
+    'unicorn/no-array-for-each': 'error',
     // from ts-conversion
     'import/no-duplicates': 'warn',
     'jsx-a11y/label-has-for': 'off',
