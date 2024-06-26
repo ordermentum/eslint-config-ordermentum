@@ -1,5 +1,15 @@
 # @ordermentum/eslint-config-ordermentum
 
+## 2.4.0
+
+### Minor Changes
+
+- 66bacbf: Add eslint-plugin-jsx-no-leaked-values
+
+### Patch Changes
+
+- 55e9bb5: Minor fixes for typescript specific rules
+
 ## 2.3.3
 
 ### Patch Changes
