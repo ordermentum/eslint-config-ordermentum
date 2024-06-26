@@ -17,6 +17,7 @@ module.exports = {
     'plugin:promise/recommended',
   ],
   rules: {
+    'jsx-a11y/label-has-for': 'off',
     'jsx-a11y/no-autofocus': 'warn',
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'jsx-a11y/no-static-element-interactions': 'warn',
@@ -56,7 +57,6 @@ module.exports = {
     'unicorn/no-array-for-each': 'error',
     // from ts-conversion
     'import/no-duplicates': 'warn',
-    'jsx-a11y/label-has-for': 'off',
     camelcase: [
       'error',
       {
@@ -82,6 +82,7 @@ module.exports = {
       parserOptions: {
         sourceType: 'module',
       },
+      extends: ['plugin:jsx-no-leaked-values/recommended'],
       files: ['**/*.ts', '**/*.tsx'],
       rules: {
         'import/no-unresolved': 'off',
