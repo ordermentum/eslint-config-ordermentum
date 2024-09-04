@@ -91,6 +91,13 @@ module.exports = {
         'no-undef': 'off',
         'import/prefer-default-export': 'off',
         'import/order': 'warn',
+        // we do not use prop-types in typescript files
+        'react/prop-types': 'off',
+        'react/require-default-props': 'off',
+        'react/default-props-match-prop-types': 'off',
+        'react/forbid-prop-type': 'off',
+        'react/forbid-prop-types': 'off',
+        'react/no-unused-prop-types': 'off',
       },
       settings: {
         'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
