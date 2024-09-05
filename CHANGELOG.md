@@ -1,5 +1,11 @@
 # @ordermentum/eslint-config-ordermentum
 
+## 2.5.0
+
+### Minor Changes
+
+- 4d64902: Disable prop-types checks in typescript files
+
 ## 2.4.0
 
 ### Minor Changes
