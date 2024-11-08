@@ -5,6 +5,7 @@ module.exports = {
     'jsx-a11y',
     'promise',
     'unicorn',
+    'tailwindcss/recommended',
     'react-hooks',
   ],
   env: {
@@ -75,6 +76,9 @@ module.exports = {
     // allows us to not use file extensions for these
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
     react: { version: 'detect' },
+    tailwindcss: {
+      callees: ['classNames'],
+    },
   },
   overrides: [
     {
