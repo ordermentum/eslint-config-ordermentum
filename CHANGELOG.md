@@ -1,5 +1,11 @@
 # @ordermentum/eslint-config-ordermentum
 
+## 2.6.1
+
+### Patch Changes
+
+- c60f52f: Fix extend of eslint-plugin-tailwind
+
 ## 2.6.0
 
 ### Minor Changes
