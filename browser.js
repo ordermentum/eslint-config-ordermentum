@@ -5,7 +5,6 @@ module.exports = {
     'jsx-a11y',
     'promise',
     'unicorn',
-    'tailwindcss/recommended',
     'react-hooks',
   ],
   env: {
@@ -16,6 +15,7 @@ module.exports = {
     './index.js',
     'plugin:react/recommended',
     'plugin:promise/recommended',
+    'plugin:tailwindcss/recommended',
   ],
   rules: {
     'jsx-a11y/label-has-for': 'off',
