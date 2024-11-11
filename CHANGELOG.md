@@ -1,5 +1,11 @@
 # @ordermentum/eslint-config-ordermentum
 
+## 2.6.0
+
+### Minor Changes
+
+- 30fc640: Add eslint-plugin-tailwind to browser config
+
 ## 2.5.0
 
 ### Minor Changes
